@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Project-footspace/static/css/main.dd8f7b2a.css",
+    "main.js": "/Project-footspace/static/js/main.9e6aa55e.js",
+    "static/media/img-2.jpg": "/Project-footspace/static/media/img-2.f46c729ff7f4ce6b7e15.jpg",
+    "static/media/img-1.jpg": "/Project-footspace/static/media/img-1.b986cc7d7bb0ba8bfc72.jpg",
+    "static/media/img-3.jpg": "/Project-footspace/static/media/img-3.bed9a37b3353b0a58b7c.jpg",
+    "index.html": "/Project-footspace/index.html",
+    "main.dd8f7b2a.css.map": "/Project-footspace/static/css/main.dd8f7b2a.css.map",
+    "main.9e6aa55e.js.map": "/Project-footspace/static/js/main.9e6aa55e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd8f7b2a.css",
+    "static/js/main.9e6aa55e.js"
+  ]
+}
