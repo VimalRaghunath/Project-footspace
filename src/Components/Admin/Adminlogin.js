@@ -20,7 +20,7 @@ function Adminlogin() {
       e.preventDefault();
 
       
-      if("Admin@gmail.com"==Email&&123456===Password){
+      if("Admin@gmail.com"===Email&&123456===Password){
         navigate('/Adminhome')
           
       }

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { myContext } from './Context'
-import { Button, Card, Col, Container, Row, Image, Form } from 'react-bootstrap'
+import { Button, Card, Col, Container, Row, Image,} from 'react-bootstrap'
 import Compnavbar from './Compnavbar';
 
 
@@ -14,7 +14,7 @@ function Shoppingcart() {
 
     const handleDecrement = (id) => {
       const updatedCart = cart.map((item) => {
-        if (item.id == id && item.qty > 1) {
+        if (item.id === id && item.qty > 1) {
            return { ...item, qty: item.qty - 1 }
         }
         return item;
@@ -28,7 +28,7 @@ function Shoppingcart() {
 
     const handleIncrement =(id) => {
        const updatedCart = cart.map((item)=>{
-        if (item.id == id) {
+        if (item.id === id) {
            return { ...item, qty: item.qty + 1 }
          }
            return item
