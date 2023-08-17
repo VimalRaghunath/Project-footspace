@@ -1,0 +1,142 @@
+*{
+ padding: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.men{
+  background-color: rgb(246, 240, 240);
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  transition: .5s;
+}
+
+.men:hover{
+  background-color: black;
+  color: white;
+}
+
+.new{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.homefooter{
+  text-align: center;
+  margin-top: 70px;
+  padding: 30px;
+}
+ 
+.quotes{
+  padding-top: 10px;
+}
+
+.Aboutmain{
+  margin-top: 70px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  background-color:beige
+}
+
+.Aboutmain h3 {
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.fa-brands{
+  
+  padding-top: 50px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.productsdiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.loginandadmin{
+  display: flex;
+  justify-content: space-between;
+}
+
+.browsediv{
+  display: flex;
+}
+
+.admin-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-nav-c{
+  display: flex;
+}
+.Adminlogout{
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.allproducts{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.eachproducts{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.addproductdiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.userslist{
+  text-align: center;
+  text-decoration: underline;
+}
