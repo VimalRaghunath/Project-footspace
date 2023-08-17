@@ -10,7 +10,7 @@ import { myContext } from '../Context';
 function Adminhome() {
   const {Products,setProducts} = useContext(myContext);
   const deleteItem = (id) => {
-    const afterDeleted=Products.filter((item)=>item.id!=parseInt(id));
+    const afterDeleted=Products.filter((item)=>item.id!==parseInt(id));
     setProducts(afterDeleted);
   }
 

@@ -1,12 +1,12 @@
 import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { myContext } from '../Context'
+// import { myContext } from '../Context'
 import { Button, Form } from 'react-bootstrap'
 import { Admindummy } from './Admindummy'
 
 function Adminlogin() {
 
-    const { admindata } = useContext(myContext)
+    // const { admindata } = useContext(myContext)
     const [Email,setEmail] = useState(" ")
     const [Password,setPassword] = useState(" ")
     const navigate = useNavigate()
@@ -20,7 +20,7 @@ function Adminlogin() {
       e.preventDefault();
 
       
-      if("Admin@gmail.com"==Email&&123456==Password){
+      if("Admin@gmail.com"==Email&&123456===Password){
         navigate('/Adminhome')
           
       }
